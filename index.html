@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="/css/main.css" />
 	<link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css" rel="stylesheet" />
 
 	<title>Bootstrap demo</title>
 </head>
@@ -14,7 +15,7 @@
 	<header #="top">
 		<nav id="navbar" class=" nav navbar fixed-top navbar-expand-lg navbar-orange bg-orange  border-1 margin-bottom">
 			<div class="container">
-				<a class="navbar-brand" href="#">Ravely</a>
+				<a class="text-off-white navbar-brand" href="#">Ravely</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
 					aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -22,13 +23,13 @@
 				<div class="collapse navbar-collapse" id="navbarScroll">
 					<ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#">Home</a>
+							<a class=" text-off-white nav-link active" aria-current="page" href="#">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/create-gigs.html">Create a Gig</a>
+							<a class=" text-off-white nav-link" href="/create-gigs.html">Create a Gig</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Profile</a>
+							<a class="text-off-white nav-link" href="#">Profile</a>
 						</li>
 					</ul>
 
@@ -37,50 +38,53 @@
 		</nav>
 
 
-		<div class=" bg-grey-400 text-light pt-5  img width-auto mt-5">
+		<div class=" bg-off-white text-light pt-5  img width-auto ">
 
 			<div class="container">
 
 				<div class="row ">
-					<div class="lg-card bg-image col-md-12  d-flex justify-content-center   rounded mt-5 mb-5 shadow "
-						style="background-image:url('/resources/images/house.jpeg');height: 65rem ">
-						<h1
-							class=" display-1 fw-bold font-black align-items-center d-flex justify-content-center text-center">
-							Create the Best gigs</h1>
+					<div class="bg-image pt-5 rounded">
+						<img src="/resources/images/house.jpeg" class="w-100" alt="">
+						<div class="mask">
+							<div class="d-flex justify-content-center align-items-center h-100">
+								<p class="text-white display-1 mb-0">Can you see me?</p>
+							</div>
+						</div>
 					</div>
+
 				</div>
 
 
-				<div class="row bac">
-					<div class="col-6 position-relative">
+				<div class="row ">
+					<div class="col-sm-6 col-12 position-relative">
 
-						<div class="">
+						<div class="mt-3 img-gradient">
 							<img class="med-card cover" src="/resources/images/YoungJT.jpeg">
-							<div class="bottom-left">Discover the Talent of Tommorow</div>
+							<div class="bottom-left text-white">Discover the Talent of Tommorow</div>
 						</div>
 					</div>
-					<div class="col-6 ">
+					<div class="col-sm-6 col-12  ">
 						<div class="row">
 
-							<div class="col-6 position-relative ">
-								<div class="">
-									<img class="tiny-card cover" src="/resources/images/meter.png">
-									<div class="bottom-left">Chart Your Success</div>
+							<div class="col-sm-6 col-12  position-relative ">
+								<div class="mt-3 img-gradient">
+									<img class="tiny-card cover " src="/resources/images/meter.png">
+									<div class="bottom-left text-white">Chart Your Success</div>
 								</div>
 
 							</div>
-							<div class="col-6 position-relative">
-								<div class="">
+							<div class="col-sm-6 col-12  position-relative">
+								<div class="mt-3 img-gradient">
 									<img class="tiny-card cover" src="/resources/images/opera-house.jpeg">
-									<div class="bottom-left">Discover Amazing Venues</div>
+									<div class="bottom-left text-white">Discover Amazing Venues</div>
 								</div>
 
 							</div>
 
-							<div class="col-12 position-relative ">
-								<div class="mt-3">
+							<div class="col-sm-12 position-relative ">
+								<div class="mt-3 img-gradient">
 									<img class=" small-card cover  " src="/resources/images/mingling.jpeg">
-									<div class="bottom-left">Network with Chart Toppers</div>
+									<div class="bottom-left text-white">Network with Chart Toppers</div>
 								</div>
 							</div>
 						</div>
@@ -90,30 +94,35 @@
 
 					</div>
 				</div>
-				<div class="row mt-4">
+				<div class="row mt-3">
 					<div class="col-4 col-md-3 position-relative">
-						<div class="">
+						<div class=" img-gradient">
 							<img class="cover tiny-card" src="/resources/images/clairo.jpg">
-							<div class="bottom-left">Festivals</div>
+							<div class="bottom-left text-off-white">Festivals</div>
 						</div>
 					</div>
-					<div class="col-8 col-md-9 position-relative gradient ">
-						<div class="">
+					<div class="col-8 col-md-9 position-relative  ">
+						<div class=" img-gradient">
 							<img class="cover small-card " src="/resources/images/crop-top.png">
-							<div class="bottom-left">Set the trends</div>
+							<div class="bottom-left text-off-white">Set the trends</div>
 						</div>
 					</div>
 
 				</div>
 				<div class="row p-0">
 
-					<div class="p-0 lg-card bg-image col-md-12  d-flex justify-content-center rounded mt-3 shadow "
-						style="background-image:url('/resources/images/acdc.jpeg');height: 65rem ">
-						<h1 class="display-1 font-black align-items-center d-flex justify-content-center text-center">
-							GIGS</h1>
+					<div class="bg-image pt-5 rounded ">
+						<img class="" src="/resources/images/house.jpeg" class="w-100" alt="">
+						<div class="mask">
+							<div class="d-flex justify-content-center align-items-center h-100">
+								<p class="display-1 font-black  mb-0">Can you see me?</p>
+							</div>
+						</div>
 					</div>
 
+
 				</div>
+
 
 
 
@@ -122,7 +131,7 @@
 			</div>
 			</main>
 			<div class="bg-grey-600 ">
-				<footer class=" mt-4 py-5 bg-grey-500">
+				<footer class=" mt-3 py-5 bg-grey-500">
 					<ul class="nav justify-content-center pb-3 ">
 						<li class="nav-item"><a href="#" class="nav-link px-2 text-orange-500">Home</a></li>
 						<li class="nav-item"><a href="#" class="nav-link px-2 text-orange-500">Pricing</a></li>
