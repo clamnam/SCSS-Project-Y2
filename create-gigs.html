@@ -11,11 +11,11 @@
     <title>Create a New Gig</title>
 </head>
 
-<body>
+<body class="bg-off-white">
     <header #="top">
         <nav id="navbar" class=" nav navbar fixed-top navbar-expand-lg navbar-dark bg-orange  border-1 margin-bottom">
             <div class="container">
-                <a class="navbar-brand" href="#">Ravely</a>
+                <a class="navbar-brand text-off-white" href="index.html">Ravely</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -23,13 +23,14 @@
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
                         <li class="nav-item">
-                            <a class="nav-link " href="/index.html">Home</a>
+                            <a class="nav-link  text-off-white" href="/index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/create-gigs.html">Create a Gig</a>
+                            <a class="nav-link text-off-white active" aria-current="page"
+                                href="/create-gigs.html">Create a Gig</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/profile.html">Profile</a>
+                            <a class="nav-link text-off-white" href="/future.html">Profile</a>
                         </li>
                     </ul>
 
@@ -38,7 +39,7 @@
         </nav>
     </header>
 
-    <div class="container">
+    <div class="container ">
         <div class="row g-5 py-5 mt-5">
             <!-- <div class="col-md-5 col-lg-4 order-md-last">
                     <h4 class="d-flex justify-content-between align-items-center mb-3">
@@ -186,30 +187,31 @@
 
                     <hr class="my-4">
                     <h3>Social media connections</h3>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="same-address">
-                        <label class="form-check-label" for="same-address">Twitter <span class="text-muted"><a
-                                    href="#">(connect)</a></span></label>
 
-                    </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="same-address">
-                        <label class="form-check-label" for="same-address">Instagram <span class="text-muted"><a
-                                    href="#">(connect)</a></span></label>
+                    <ul class="p-0">
+                        <li class="list-group-item"><label class="form-check-label" for="same-address">Twitter <span
+                                    class="text-muted"><a class="link-powder-blue" href="#">(connect)</a></span></label>
+                        </li>
 
-                    </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="same-address">
-                        <label class="form-check-label" for="same-address">Facebook <span class="text-muted"><a
-                                    href="#">(connect)</a></span></label>
+                        <li class="list-group-item"><label class="form-check-label" for="same-address">Instagram <span
+                                    class="text-muted"><a class="link-powder-blue" href="#">(connect)</a></span></label>
+                        </li>
 
-                    </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="same-address">
-                        <label class="form-check-label" for="same-address">TikTok <span class="text-muted"><a
-                                    href="#">(connect)</a></span></label>
 
-                    </div>
+
+
+                        <li class="list-group-item"><label class="form-check-label" for="same-address">Facebook <span
+                                    class="text-muted"><a class="link-powder-blue" href="#">(connect)</a></span></label>
+                        </li>
+
+
+
+
+                        <li class="list-group-item"> <label class="form-check-label" for="same-address">TikTok <span
+                                    class="text-muted"><a class="link-powder-blue" href="#">(connect)</a></span></label>
+                        </li>
+                    </ul>
+
 
 
 
@@ -217,7 +219,7 @@
 
                     <h4 class="mb-3">Connect with an Organizer</h4>
 
-                    <div class="my-3">
+                    <div class="my-3 col-6">
                         <div class="form-check">
                             <input id="festival" name="organizer" type="radio" class="form-check-input" checked=""
                                 required="">
@@ -253,24 +255,26 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <label for="" class="form-label">Account payable</label>
 
                             <ul class="dropdown-menu position-static d-grid gap-1 p-2 rounded-3 mx-0 shadow ">
-                                <li><a class="dropdown-item rounded-2 active" href="#">ending in 3421</a></li>
+                                <li><a class="dropdown-item rounded-2 active bg-orange" href="#">ending in 3421</a>
+                                </li>
                                 <li><a class="dropdown-item rounded-2" href="#">ending in 3251</a></li>
                                 <li><a class="dropdown-item rounded-2" href="#">ending in 1934</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item rounded-2" href="#">Add New +</a></li>
+                                <li><a class="dropdown-item rounded-2 bg-orange" href="#">Add New +</a></li>
                             </ul>
                         </div>
                     </div>
 
                     <hr class="my-4">
 
-                    <button class="w-100 btn btn-primary btn-lg" type="submit">Create</button>
+                    <button class="w-100 btn btn-orange btn-lg" type="submit"> <a class="no-underline text-off-white"
+                            href="/index.html">Create</a></button>
                 </form>
             </div>
         </div>
@@ -286,8 +290,8 @@
 
     </div>
     </main>
-    <div class="bg-grey-600 ">
-        <footer class=" mt-4 py-5 bg-grey-500">
+    <div class="bg-off-white-600 ">
+        <footer class=" mt-4 py-5 bg-off-white-500">
             <ul class="nav justify-content-center pb-3 ">
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-orange-500">Home</a></li>
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-orange-500">Pricing</a></li>

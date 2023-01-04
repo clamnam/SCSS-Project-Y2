@@ -15,7 +15,7 @@ $font-family-base: "inter";
 $custom-colors: (
     // main orange - 60
     "orange":rgb(247, 91, 92),
-    "secondary-dull": rgb(173, 136, 133),
+    "secondary-dull": rgb(151, 117, 114),
     "neutral":rgb(153, 142, 141),
     "off-white":#DDD0C8,
     "powder-blue":#2272FF,
@@ -196,7 +196,6 @@ $spacers: (
 
 .img-gradient {
     max-width: 100%;
-    width: 800px;
     margin: auto;
 }
 
@@ -208,6 +207,10 @@ $spacers: (
     height: 150px;
     width: 100%;
     content: '';
+}
+
+.no-underline {
+    text-decoration: none;
 }
 
 
