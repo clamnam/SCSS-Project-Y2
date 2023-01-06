@@ -13,38 +13,37 @@
 </head>
 
 <body class="bg-off-white">
-    <header #="top">
-        <nav id="navbar" class=" nav navbar fixed-top navbar-expand-lg navbar-dark bg-orange  border-1 margin-bottom">
-            <div class="container">
-                <a class="navbar-brand text-off-white" href="index.html">Ravely</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
-                        <li class="nav-item">
-                            <a class="nav-link  text-off-white" href="/index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-off-white active" aria-current="page"
-                                href="/create-gigs.html">Create a Gig</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-off-white" href="/future.html">Be The Future</a>
-                        </li>
-                    </ul>
+    <nav id="navbar" class=" nav navbar fixed-top navbar-expand-lg navbar-orange bg-orange  ">
+        <div class="container">
+            <a class="text-off-white navbar-brand display-title " href="/index.html">Ravely</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class=" text-off-white nav-link display-title " href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" text-off-white nav-link display-title active" aria-current="page"
+                            href="/create-gigs.html">Create a
+                            Gig</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-off-white nav-link display-title" href="/future.html">Be the Future</a>
+                    </li>
+                </ul>
 
-                </div>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
     <div class="container ">
-        <div class="row py-5 mt-5">
+        <div class="row py-4 mt-5">
 
             <div class="col-12 col-md-6  pt-4 ">
-                <h3 class="mb-3">Create Your Gig</h3>
+                <h3 class="display-title mb-3">Create Your Gig</h3>
                 <div class="needs-validation" novalidate="">
                     <div class="row g-3">
                         <div class="col-md-12">
@@ -52,6 +51,13 @@
                             <input type="text" class="form-control" id="stageName" placeholder="" value="" required="">
                             <div class="invalid-feedback">
                                 Valid Stage name is required.
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <label for="gigTitle" class="form-label">Gig Title</label>
+                            <input type="text" class="form-control" id="gigTitle" placeholder="" value="" required="">
+                            <div class="invalid-feedback">
+                                Valid Gig Title is required.
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -88,11 +94,11 @@
                 </div>
             </div>
             <div class="col-12 col-md-6  pt-4">
-                <h3 class="mb-3">Wheres it Happening</h3>
+                <h3 class="display-title mb-3">Wheres it Happening</h3>
                 <div class="needs-validation" novalidate="">
                     <div class="row g-3">
                         <div class="col-md-6">
-                            <label for="address" class="form-label">Address</label>
+                            <label for="address" class="form-label">Address Line 1</label>
                             <input type="text" class="form-control" id="address" placeholder="123 Street Name" value=""
                                 required="">
                             <div class="invalid-feedback">
@@ -100,11 +106,18 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <label for="Address1" class="form-label">Address Line 1</label>
+                            <label for="Address1" class="form-label">Address Line 2</label>
                             <input type="text" class="form-control" id="Address1" placeholder="Town" value=""
                                 required="">
                             <div class="invalid-feedback">
                                 Valid Address is required.
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="City" class="form-label">City</label>
+                            <input type="text" class="form-control" id="City" placeholder="City" value="" required="">
+                            <div class="invalid-feedback">
+                                Valid City is required.
                             </div>
                         </div>
 
@@ -128,52 +141,11 @@
         </div>
     </div>
 
-    <hr class="my-4">
-    <div class="container">
-        <div class="row">
 
-            <div class="col-md-12">
-                <h3>Social media connections</h3>
-                <ul class="p-0">
-                    <li class="list-group-item"> <span><img class="icon" src="/resources/images/twitter.svg"
-                                alt=""></span>Twitter <span class="text-muted"><a class="link-powder-blue"
-                                href="#">(connect)</a></span>
-                    </li>
-
-                    <li class="list-group-item"><span><img class="icon" src="/resources/images/instagram.svg"
-                                alt=""></span>Instagram <span class="text-muted"><a class="link-powder-blue"
-                                href="#">(connect)</a></span>
-                    </li>
-
-
-
-
-                    <li class="list-group-item">
-                        <span>
-                            <img class="icon" src="/resources/images/facebook.svg" alt="">
-                        </span>Facebook
-                        <span class="text-muted">
-                            <a class="link-powder-blue" href="#">(connect)</a>
-                        </span>
-                    </li>
-
-
-
-
-                    <li class="list-group-item"> <span><img class="icon" src="/resources/images/tiktok.svg"
-                                alt=""></span>TikTok <span class="text-muted"><a class="link-powder-blue"
-                                href="#">(connect)</a></span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-
-    </div>
 
     <hr class="my-4">
     <div class="container">
-        <h4 class="mb-3">Connect with an Organizer</h4>
+        <h3 class="mb-3 display-title">Connect with an Organizer</h3>
 
 
 
@@ -212,25 +184,78 @@
 
 
 
-            <div class="col-md-8 mt-3">
+            <div class="col-md-8 my-3">
                 <label for="" class="form-label">
-                    <h4> Account payable</h4>
+                    <h4 class="display-title"> Account payable</h4>
                 </label>
 
                 <ul class="dropdown-menu position-static d-grid gap-1 p-2 rounded-3 mx-0 shadow ">
-                    <li><a class="dropdown-item rounded-2 active bg-orange" href="#">ending in 3421</a>
+                    <li><a class="dropdown-item rounded-2" href="#">ending in 3421</a>
                     </li>
                     <li><a class="dropdown-item rounded-2" href="#">ending in 3251</a></li>
                     <li><a class="dropdown-item rounded-2" href="#">ending in 1934</a></li>
                     <li>
-                        <hr class="dropdown-divider">
                     </li>
                     <li><a class="dropdown-item rounded-2 bg-orange" href="#">Add New +</a></li>
                 </ul>
             </div>
+
+            <div class="col-md-4 my-3">
+                <div class="">
+
+                </div>
+                <div>
+                    <label for="" class="form-label">
+                        <h4 class="display-title">Social Media Connections</h4>
+                    </label>
+                    <ul class="list-group">
+                        <li class="list-group-item ">
+                            <div class="">
+                                <div>
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <img class="icon" src="/resources/images/tiktok.svg" alt="">TikTok
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item ">
+                            <div class="">
+                                <div>
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+
+                                    <img class="icon" src="/resources/images/facebook.svg" alt="">
+                                    Facebook
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item ">
+                            <div class="">
+                                <div>
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+
+                                    <img class="icon" src="/resources/images/instagram.svg" alt="">
+                                    Instagram
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item ">
+                            <div class="">
+                                <div>
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+
+                                    <img class="icon" src="/resources/images/twitter.svg" alt="">
+                                    Twitter
+
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
-    <hr class="my-4">
+    <br class="my-5">
     <div class="container">
 
         <button class="w-100 btn btn-orange btn-lg" type="submit"> <a class="no-underline text-off-white"
@@ -248,13 +273,13 @@
     <div class="bg-off-white-600 ">
         <footer class=" pt-5 py-5 bg-off-white-500">
             <ul class="nav justify-content-center pb-3 ">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-orange-500">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-orange-500">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-orange-500">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-orange-500">About</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-orange-500">FAQs</a></li>
+                <li class="nav-item"><a href="/index.html" class="nav-link px-2 text-orange-500">Home</a></li>
+                <li class="nav-item"><a href="/create-gigs.html" class="nav-link px-2 text-orange-500">Create A Gig</a>
+                </li>
+                <li class="nav-item"><a href="/future.html" class="nav-link px-2 text-orange-500">About Us</a></li>
+
             </ul>
-            <p class="text-center text-500 m-0">© 2022 Ravely, Inc</p>
+            <p class="text-center text-orange-500 m-0">© 2022 Ravely, Inc</p>
 
         </footer>
     </div>
