@@ -12,7 +12,7 @@
 	<link rel="icon" href="/resources/images/flower.ico" type="image/gif">
 
 
-	<title>Bootstrap demo</title>
+	<title>Home</title>
 </head>
 
 <body>
@@ -46,11 +46,12 @@
 	<div class=" bg-off-white text-light pt-3  img width-auto ">
 
 		<div class="container">
-
+			<!-- Big Card -->
 			<div class="row pt-5">
 				<a href="/create-gigs.html">
 					<div class="bg-image mt-4 rounded">
-						<img class="img-gradient" src="/resources/images/house.jpeg" class="w-100" alt="">
+						<img class="img-gradient" src="/resources/images/house.jpeg" class="w-100"
+							alt="large warehouse Concert">
 						<div class="mask">
 							<div class="d-flex justify-content-center align-items-center h-100">
 								<p class="text-white fw-semibold display-1 mb-0  text-center">Create the Best Gigs</p>
@@ -60,23 +61,27 @@
 				</a>
 			</div>
 
-
+			<!-- First row of Cards -->
 			<div class="row ">
 				<div class="col-sm-6 col-12 position-relative">
+					<a href="/future.html">
+						<div class="mt-3 img-gradient">
 
-					<div class="mt-3 img-gradient">
-						<img class="med-card cover" src="/resources/images/YoungJT.jpeg">
-						<div class="bottom-left text-white">
-							<h3>Become the Talent of Tommorow</h3>
+							<img class="med-card cover" src="/resources/images/YoungJT.jpeg"
+								alt="Young justin timberlake">
+							<div class="bottom-left text-white">
+								<h3>Become the Talent of Tommorow</h3>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="col-sm-6 col-12  ">
+					<!-- Nested Row -->
 					<div class="row">
 
 						<div class="col-sm-6 col-12  position-relative ">
 							<div class="mt-3 img-gradient">
-								<img class="tiny-card cover " src="/resources/images/meter.png">
+								<img class="tiny-card cover " src="/resources/images/meter.png" alt="meter of success">
 								<div class="bottom-left text-white">
 									<h3>Chart Your Success</h3>
 								</div>
@@ -85,7 +90,8 @@
 						</div>
 						<div class="col-sm-6 col-12  position-relative">
 							<div class="mt-3 img-gradient">
-								<img class="tiny-card cover" src="/resources/images/opera-house.jpeg">
+								<img class="tiny-card cover" src="/resources/images/opera-house.jpeg"
+									alt="inside of the sydney opera house">
 								<div class="bottom-left text-white">
 									<h3>Discover Amazing Venues</h3>
 								</div>
@@ -95,7 +101,8 @@
 
 						<div class="col-sm-12 position-relative ">
 							<div class="mt-3 img-gradient">
-								<img class=" small-card cover  " src="/resources/images/mingling.jpeg">
+								<img class=" small-card cover  " src="/resources/images/mingling.jpeg"
+									alt="groups of people talking">
 								<div class="bottom-left text-white">
 									<h3>Network with Chart Toppers</h3>
 								</div>
@@ -108,10 +115,11 @@
 
 				</div>
 			</div>
+			<!-- Lower Row -->
 			<div class="row mt-3">
 				<div class="col-4 col-md-3 position-relative">
 					<div class=" img-gradient">
-						<img class="cover tiny-card" src="/resources/images/clairo.jpg">
+						<img class="cover tiny-card" src="/resources/images/clairo.jpg" alt="clairo laying in grass">
 						<div class="bottom-left text-white">
 							<h3>Festivals</h3>
 						</div>
@@ -119,7 +127,8 @@
 				</div>
 				<div class="col-8 col-md-9 position-relative  ">
 					<div class=" img-gradient">
-						<img class="cover small-card " src="/resources/images/crop-top.png">
+						<img class="cover small-card " src="/resources/images/crop-top.png"
+							alt="couple of guys wearing alt clothes">
 						<div class="bottom-left text-white">
 							<h3>Set the trends</h3>
 						</div>
@@ -127,9 +136,11 @@
 				</div>
 
 			</div>
+			<!-- Big Card -->
+
 			<div class="row ">
 				<div class="bg-image mt-3 rounded">
-					<img src="/resources/images/acdc.jpeg" class="w-100" alt="">
+					<img src="/resources/images/acdc.jpeg" class="w-100" alt="acdc on stage">
 					<div class="mask">
 						<div class="d-flex justify-content-center align-items-center h-100">
 							<p class="text-white fw-semibold display-1 mb-0 text-center">Rock the world</p>
@@ -146,6 +157,7 @@
 
 		</div>
 		</main>
+		<!-- footer -->
 		<div class="">
 			<footer class=" mt-4 py-5 bg-orange-400">
 				<ul class="nav justify-content-center pb-3 ">
@@ -164,6 +176,8 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
 			crossorigin="anonymous"></script>
+		<!-- selects nav class, checks scroll height vs last scroll height and if scrolling down hides the nav by changing the class to one with a negative height value -->
+
 		<script>{
 				const nav = document.querySelector(".nav");
 				let lastScrollY = window.scrollY;
